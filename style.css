@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(120, 119, 119, 0.2);
+}
+
+.logo img {
+    margin: 0 0 0 70px;
+    width: 230px;
+    height: 50px;
+}
+
+.destra {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icona {
+    margin: 0 10px;
+    color: grey;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin: 0 15px;
+    margin-right: 100px;
+}
+
+input {
+    border: 2px solid grey;
+    font-size: 10px;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-bottom: 2px solid lightgray;
+    width: 47%;
+    margin: 100px 0 0 80px;
+}
+
+.following {
+    width: 130px;
+    margin: 80px 0 0 80px;
+    color: grey;
+}
+
+.rfy {
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainsx {
+    margin: 70px 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    height: 100vh;
+    color: rgb(51, 51, 51);
+}
+
+span {
+    color: grey;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.imgprof img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.imgprof {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 80%;
+    font-size: 15px;
+}
+
+.title h2 {
+    color: rgb(51, 51, 51);
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    font-weight: 300;
+}
+
+.mini {
+    width: 80%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mini h4 {
+    color: grey;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 2px;
+    margin: 0 10px;
+    color: grey;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 35px;
+    background-color: lightgrey;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 35%;
+}
+
+.lowicons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 250px;
+}
+
+.dots {
+    color: gray;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.plus {
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+}
+
+.secondo {
+    margin-top: 20px;
+}
+
+.maindx {
+    display: flex;
+    flex-direction: column;
+    margin-top: -70px;
+    margin-left: 15px;
+    border-left: 2px solid lightgrey;
+    width: 48%;
+    align-items: center;
+    height: 1500px;
+}
+
+.logo2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+.logo2img {
+    font-size: 30px;
+}
+
+.piu {
+    font-size: 20px;
+    margin: 0 5px;
+    color: grey;
+    font-weight: 300;
+}
+
+.x {
+    color: rgb(43, 174, 255);
+    font-size: 20px;
+}
+
+.payoff {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 250px;
+}
+
+.payoff p {
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+}
+
+.bottone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.maindx h5 {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.topics {
+    border-top: 2px solid lightgrey;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
+}
+
+.rt {
+    border-top: 2px grey;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+.middleright {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: -10px;
+    width: 350px;
+    height: 120px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 211, 211);
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagpsy {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 211, 211);
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 100px;
+}
+
+.wtf {
+    display: flex;
+    justify-content: start;
+    width: 700px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wtf h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.profili p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profili img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profili {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 5px;
+    width: 400px;
+    height: 70px;
+    margin-right: 240px;
+}
+
+.accounts {
+    height: 70px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    height: 40px;
+}
+
+.paragrafo {
+    justify-content: start;
+    font-size: 10px;
+}
+
+#little {
+    font-size: 10px;
+}
+
+.social {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.social p {
+    font-size: 12px;
+}
+
+#terzo {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -136px;
+}
+
+.imgprofile {
+    display: flex;
+    text-align: center;
+    align-items: start;
+}
+
+.imgprofile img {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.nameprofile {
+    margin-left: 5px;
+}
+
+.text3 {
+    display: flex;
+    justify-content: start;
+    text-wrap: wrap;
+    font-size: 15px;
+    width: 500px;
+    font-weight: 700;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: grey;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.star {
+    font-size: 8px;
+    color: grey;
+    margin-left: 10px;
+
+}
+
+#quarto {
+    display: flex;
+    flex-direction: column;
+    margin-left: -136px;
+    margin-top: 40px;
+}
+
+.green {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 30px;
+}
+
+#greentx {
+    margin-left: 30px;
+    color: green;
+    font-weight: 400;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-wrap: wrap;
+    margin-top: 150px;
+    width: 300px;
+    height: 20px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.footerlast {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 10px;
+    color: grey;
+}
